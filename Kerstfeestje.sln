@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceTheScale", "BalanceTheScale\BalanceTheScale.csproj", "{97A39495-A8A3-434E-AB01-8F76B44F4D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalanceTheScaleTests", "BalanceTheScaleTests\BalanceTheScaleTests.csproj", "{8CB0CEAF-3A48-498B-B1E5-D7F47FBE7EC1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A39495-A8A3-434E-AB01-8F76B44F4D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A39495-A8A3-434E-AB01-8F76B44F4D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A39495-A8A3-434E-AB01-8F76B44F4D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A39495-A8A3-434E-AB01-8F76B44F4D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB0CEAF-3A48-498B-B1E5-D7F47FBE7EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB0CEAF-3A48-498B-B1E5-D7F47FBE7EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB0CEAF-3A48-498B-B1E5-D7F47FBE7EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB0CEAF-3A48-498B-B1E5-D7F47FBE7EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
